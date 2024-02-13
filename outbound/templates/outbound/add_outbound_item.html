@@ -1,0 +1,11 @@
+
+
+
+<h2>Add Outbound Item</h2>
+<form method="post">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <button type="submit">Save<br></button>
+    <button onclick="window.location.href='http://127.0.0.1:8000/outbound';">Back<br></button>
+</form>
+
